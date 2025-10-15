@@ -3,7 +3,7 @@
 <img src="https://raw.githubusercontent.com/luna-ai-lab/DH-FaceVid-1K/main/assets/logo.svg" alt="DH-FaceVid-1K Logo" width="150">
 
 
-# DH-FaceVid-1K: A Large-Scale High-Quality Dataset for Face Video Generation
+# DH-OmniFace: A Large-Scale and Multi-Attribute Dataset Suite for Controllable Face Video Generation
 
 <span style="font-size: 24px; font-weight: bold;">🏆 ICCV 2025 🏆</span>
 
