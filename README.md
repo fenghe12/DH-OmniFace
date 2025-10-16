@@ -94,13 +94,13 @@ Compared with other datasets, DH-OmniFace has a larger data volume, superior vis
 
 Details of each subset.
 
-![Statistics](static\images\img_v3_02r4_88423c55-6652-4cf9-89b0-a19261c1336g.jpg)
+![Statistics](static/images/img_v3_02r4_88423c55-6652-4cf9-89b0-a19261c1336g.jpg)
 
 ---
 
 ## ⚙️ Collection Pipeline
 
-![Collection Pipeline](static\images\figure4_cropped.png)
+![Collection Pipeline](static/images/figure4_cropped.png)
 
 Overview of the data curation pipeline, comprising four main stages: raw data acquisition, video preprocessing, noisy data filtering, and annotation
 generation using Qwen2.5-VL and Llama 3, followed by two-stage manual verification.
