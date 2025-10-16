@@ -94,7 +94,7 @@ Compared with other datasets, DH-OmniFace has a larger data volume, superior vis
 
 Details of each subset.
 
-![Statistics](static\images\img_v3_02r4_cebe0894-d5db-4059-80e3-0f1bb1ba3e9g.jpg)
+![Statistics](static\images\img_v3_02r4_88423c55-6652-4cf9-89b0-a19261c1336g.jpg)
 
 ---
 
