@@ -79,13 +79,13 @@ Our open-source roadmap is as follows. We will update the status here as we make
     <td width="20%" style="border: none; padding: 5px;"><img src="facevid/gifs/GrjEDguF59Q_0.gif" style="width: 100%;"></td>
   </tr>
 </table>
----
+
 
 ## 📊 Datasets Comparison
 
 Compared with other datasets, DH-OmniFace has a larger data volume, superior visual quality, and broader attribute coverage.
 
-| ![Dataset Overview](static/images/figure1-0917.png) | ![Comparison](static/images/img_v3_02r4_88423c55-6652-4cf9-89b0-a19261c1336g.jpg) |
+![Comparison](static/images/img_v3_02r4_88423c55-6652-4cf9-89b0-a19261c1336g.jpg) 
 
 
 ---
