@@ -92,7 +92,6 @@ The emotions include **happy, angry, fearful, disgusted, sad, and surprised**.
     <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/005_fear_003.gif" style="width: 100%;"></td>
     <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/018_fear_51.gif" style="width: 100%;"></td>
   </tr>
-
   <!-- Row 2 -->
   <tr>
     <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/006_disgust_031.gif" style="width: 100%;"></td>
