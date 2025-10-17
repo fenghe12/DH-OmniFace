@@ -295,120 +295,164 @@
   </div>
 </div
 
-    <!-- 4. Sampled Videos -->
-    <div class="my-5">
-      <h2 class="section-title">🎬 Sampled Videos</h2>
-      <p class="text-center">Please note that to ensure smooth page loading, we have resized all videos to 256x256.</p>
-      <h4 class="section-subtitle">Diverse and high-quality Asian face videos.</h4>
-      <div id="asian-gallery" class="video-gallery mt-3"></div>
-      <h4 class="section-subtitle">Multi-ethnic face videos.</h4>
-      <div id="race-gallery" class="video-gallery mt-3"></div>
-      <h4 class="section-subtitle">Face videos covering a wide range of age distributions.</h4>
-      <div id="age-gallery" class="video-gallery mt-3"></div>
-      <h4 class="section-subtitle">Face videos covering various head poses.</h4>
-      <div id="pose-gallery" class="video-gallery mt-3"></div>
-      <h4 class="section-subtitle">Face videos covering various emotions.</h4>
-      <div id="emotion-gallery" class="video-gallery mt-3"></div>
-    </div>
+## 🎬 Video Samples
+### The videos have been cropped and compressed to ensure faster page loading, but this does not reflect the original quality.
 
-    <!-- 5. Statistics and Other Figures -->
-    <div class="my-5 text-center">
-      <h2 class="section-title">📊 Datasets Comparison</h2>
-      <p class="section-text">
-        Compared with other datasets, <strong>DH-OmniFace</strong> has a larger data volume, superior visual quality, and broader attribute coverage.
-      </p>
-      <img src="static/images/img_v3_02r4_88423c55-6652-4cf9-89b0-a19261c1336g.jpg" class="img-fluid rounded figure-img" alt="Comparison with other datasets">
-    </div>
-    
-    <div class="my-5 text-center">
-      <h2 class="section-title">📈 Statistics</h2>
-      <p class="section-text">
-        Details of each subset.
-      </p>
-      <img src="static/images/img_v3_02r4_88423c55-6652-4cf9-89b0-a19261c1336g.jpg" class="img-fluid rounded figure-img" alt="Dataset statistics">
-    </div>
-    
-    <div class="my-5 text-center">
-      <h2 class="section-title">⚙️ Collection Pipeline</h2>
-      <img src="static/images/figure4_cropped.png" class="img-fluid rounded figure-img" alt="Data collection pipeline">
-      <p class="section-text mt-3">
-        Overview of the data curation pipeline, comprising four main stages: raw data acquisition, video preprocessing, noisy data filtering, and annotation generation using Qwen2.5-VL and Llama 3, followed by two-stage manual verification.
-      </p>
-    </div>
-    
-    <!-- BibTeX -->
-    <div class="my-5">
-      <h2 class="section-title">📚 BibTeX</h2>
-      Coming Soon......
-      <!-- <div class="bibtex-box">
-        <pre><code>@inproceedings{di2025facevid,
-    title = {DH-FaceVid-1K: A Large-Scale High-Quality Dataset for Face Video Generation},
-    author = {Di, Donglin and Feng, He and Sun, Wenzhang and Ma, Yongjia and Li, Hao and Chen, Wei and Fan, Lei and Su, Tonghua and Yang, Xun},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    year = {2025}
+<!-- 1. DH-FaceVid-1K -->
+<h3 class="section-subtitle">DH-FaceVid-1K</h3>
+<div id="facevid-gallery" class="video-gallery mt-3"></div>
+
+<!-- 2. DH-FaceEmoVid -->
+<h3 class="section-subtitle">DH-FaceEmoVid</h3>
+<p class="text-center">The emotions include <b>happy, angry, fearful, disgusted, sad, and surprised</b>.</p>
+<div id="faceemovid-gallery" class="video-gallery mt-3"></div>
+
+<!-- 3. DH-FaceReliVid -->
+<h3 class="section-subtitle">DH-FaceReliVid</h3>
+<div id="facerelivid-gallery" class="video-gallery mt-3"></div>
+
+<!-- 4. DH-FaceLolVid -->
+<h3 class="section-subtitle">DH-FaceLolVid</h3>
+<div id="facelolvid-gallery" class="video-gallery mt-3"></div>
+
+<!-- 5. DH-FaceDrasMvVid -->
+<h3 class="section-subtitle">DH-FaceDrasMvVid</h3>
+<div id="facedrasmvvid-gallery" class="video-gallery mt-3"></div>
+
+<!-- 6. DH-MVHeadVid -->
+<h3 class="section-subtitle">DH-MVHeadVid</h3>
+<div id="mvfacevid-gallery" class="video-gallery mt-3"></div>
+
+<!-- 7. DH-SingleVid -->
+<h3 class="section-subtitle">DH-SingleVid</h3>
+<div id="singlevid-gallery" class="video-gallery mt-3"></div>
+
+
+<!-- Statistics and Other Figures -->
+<div class="my-5 text-center">
+  <h2 class="section-title">📊 Datasets Comparison</h2>
+  <p class="section-text">
+    Compared with other datasets, <strong>DH-OmniFace</strong> has a larger data volume, superior visual quality, and broader attribute coverage.
+  </p>
+  <img src="static\images\img_v3_02r4_cebe0894-d5db-4059-80e3-0f1bb1ba3e9g.jpg" class="img-fluid rounded figure-img" alt="Comparison with other datasets">
+</div>
+
+<div class="my-5 text-center">
+  <h2 class="section-title">📈 Statistics</h2>
+  <p class="section-text">
+    Details of each subset.
+  </p>
+  <img src="static\images\img_v3_02r4_88423c55-6652-4cf9-89b0-a19261c1336g.jpg" class="img-fluid rounded figure-img" alt="Dataset statistics">
+</div>
+
+
+
+<div class="my-5 text-center">
+  <h2 class="section-title">⚙️ Collection Pipeline</h2>
+  <img src="static/images/figure4_cropped.png" class="img-fluid rounded figure-img" alt="Data collection pipeline">
+  <p class="section-text mt-3">
+    Overview of the data curation pipeline, comprising four main stages: raw data acquisition, video preprocessing, noisy data filtering, and annotation generation using Qwen2.5-VL and Llama 3, followed by two-stage manual verification.
+  </p>
+</div>
+
+<!-- BibTeX -->
+<div class="my-5">
+  <h2 class="section-title">📚 BibTeX</h2>
+  Coming Soon......
+  <!-- <div class="bibtex-box">
+    <pre><code>@inproceedings{di2025facevid,
+title = {DH-FaceVid-1K: A Large-Scale High-Quality Dataset for Face Video Generation},
+author = {Di, Donglin and Feng, He and Sun, Wenzhang and Ma, Yongjia and Li, Hao and Chen, Wei and Fan, Lei and Su, Tonghua and Yang, Xun},
+booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+year = {2025}
 }</code></pre> -->
-      </div>
-    </div>
-    
-    <!-- Footer -->
-    <footer class="text-center my-5">
-      <p>Homepage Template adapted from <a href="https://github.com/m-niemeyer/regnerf" target="_blank">the RegNeRF project page</a>.</p>
-    </footer>
-
   </div>
+</div>
 
-  <!-- Consolidated JavaScript -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      function createVideoGrid(containerId, fileList, directory) {
-        const gridContainer = document.getElementById(containerId);
-        if (!gridContainer) return;
+<!-- Footer -->
+<footer class="text-center my-5">
+  <p>Homepage Template adapted from <a href="https://github.com/m-niemeyer/regnerf" target="_blank">the RegNeRF project page</a>.</p>
+</footer>
 
-        fileList.forEach(filename => {
-          const wrapper = document.createElement('div');
-          wrapper.className = 'video-wrapper';
+</div>
 
-          const video = document.createElement('video');
-          video.loop = true;
-          video.muted = true;
-          video.playsInline = true;
-          video.preload = 'metadata';
-          
-          wrapper.addEventListener('mouseenter', () => video.play().catch(e => {}));
-          wrapper.addEventListener('mouseleave', () => video.pause());
+<!-- Consolidated JavaScript -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  function createVideoGrid(containerId, fileList, directory) {
+    const gridContainer = document.getElementById(containerId);
+    if (!gridContainer) return;
 
-          const source = document.createElement('source');
-          source.src = directory + filename;
-          source.type = 'video/mp4';
+    fileList.forEach(item => {
+      // Allow for both simple strings and objects with different directories
+      const filename = typeof item === 'string' ? item : item.filename;
+      const itemDirectory = typeof item === 'string' ? directory : item.directory;
 
-          const title = document.createElement('div');
-          title.className = 'video-title';
-          title.textContent = filename.replace('.mp4', '');
+      const wrapper = document.createElement('div');
+      wrapper.className = 'video-wrapper';
 
-          video.appendChild(source);
-          wrapper.appendChild(video);
-          wrapper.appendChild(title);
-          gridContainer.appendChild(wrapper);
-          
-          wrapper.addEventListener('click', () => {
-            if (video.paused) video.play().catch(e => {});
-            else video.pause();
-          });
-        });
-      }
+      const video = document.createElement('video');
+      video.loop = true;
+      video.muted = true;
+      video.playsInline = true;
+      video.preload = 'metadata';
+      
+      wrapper.addEventListener('mouseenter', () => video.play().catch(e => {}));
+      wrapper.addEventListener('mouseleave', () => video.pause());
 
-      const asianFiles = ["000680.mp4", "001406.mp4", "001592.mp4", "001600.mp4", "002161.mp4", "002523.mp4", "002728.mp4", "003696.mp4", "005192.mp4", "007860.mp4", "007956.mp4", "024572.mp4", "067379.mp4", "085089.mp4", "091313.mp4", "092616.mp4", "105369.mp4", "106321.mp4", "RS127258_segment_049_7350_0.mp4", "RS127710_segment_005_745_0.mp4"];
-      const raceFiles = ["026237.mp4", "046378.mp4", "061175.mp4", "076105.mp4", "39Br2A7lxac_22.mp4", "3lfO6OCqcCA_0.mp4", "7n619EfuSPw_0.mp4", "BFs-a-hqs2I_9.mp4", "QaFqZQ6JQhs_1.mp4", "tqSUS5-JXIs_1.mp4", "UF2c01_glHU_3.mp4", "Uu3xazfdmvk_34.mp4", "V4ZyJR30wyg_29.mp4", "WA1L8vXkSKQ_0001_S370_E849_L115_T107_R515_B507.mp4", "WN2XSI6vZIg_18.mp4", "XoGhKL6CKwg_12.mp4"];
-      const ageFiles = ["001106.mp4", "002148.mp4", "003762.mp4", "019479.mp4", "020955.mp4", "028457.mp4", "029951.mp4", "039691.mp4", "44840.mp4", "47079.mp4"];
-      const poseFiles = ["008001.mp4", "013064.mp4", "027862.mp4", "033011.mp4", "034785.mp4", "0s1UUn9aSSw_7.mp4", "3nYrako9XM4_0.mp4", "55025.mp4", "61005.mp4", "62149.mp4", "_W4Em_fHubY_10.mp4", "_zNhY-IBLzc_64.mp4"];
-      const emotionFiles = ["14435.mp4", "15002.mp4", "Czb5Ml9VDsI_0.mp4", "GrjEDguF59Q_0.mp4", "hM3nn30NxCE_0.mp4", "PP9l4LP0WPI_0.mp4", "qfEkv726kdQ_6.mp4", "qnFWCagTOtw_1.mp4", "V4cpZlFESeA_87.mp4", "Z_9KUBCidow_3.mp4"];
+      const source = document.createElement('source');
+      source.src = itemDirectory + filename;
+      source.type = 'video/mp4';
 
-      createVideoGrid('asian-gallery', asianFiles, "facevid/asian/");
-      createVideoGrid('race-gallery', raceFiles, "facevid/race/");
-      createVideoGrid('age-gallery', ageFiles, "facevid/age/");
-      createVideoGrid('pose-gallery', poseFiles, "facevid/pose/");
-      createVideoGrid('emotion-gallery', emotionFiles, "facevid/emotion/");
+      const title = document.createElement('div');
+      title.className = 'video-title';
+      title.textContent = filename.replace('.mp4', '');
+
+      video.appendChild(source);
+      wrapper.appendChild(video);
+      wrapper.appendChild(title);
+      gridContainer.appendChild(wrapper);
+      
+      wrapper.addEventListener('click', () => {
+        if (video.paused) video.play().catch(e => {});
+        else video.pause();
+      });
     });
-  </script>
+  }
+
+  // --- Data for Each Video Section ---
+
+  // **MODIFIED as per your request**
+  const faceVidFiles = [
+    { filename: "001106.mp4", directory: "facevid/age/" },
+    { filename: "002148.mp4", directory: "facevid/age/" },
+    { filename: "003762.mp4", directory: "facevid/age/" },
+    { filename: "019479.mp4", directory: "facevid/age/" },
+    { filename: "BFs-a-hqs2I_9.mp4", directory: "facevid/race/" },
+    { filename: "3lfO6OCqcCA_0.mp4", directory: "facevid/race/" },
+    { filename: "Uu3xazfdmvk_34.mp4", directory: "facevid/race/" },
+    { filename: "WN2XSI6vZIg_18.mp4", directory: "facevid/race/" }
+  ];
+  
+  // **CONFIRMED as per your request**
+  const singleVidFiles = ["dance-pose1.mp4", "dance-pose2.mp4", "gymnastic-pose2.mp4", "scene-pose1.mp4", "yoga-pose1-1.mp4", "yoga-pose1.mp4"];
+  
+  // Unchanged sections
+  const faceEmoVidFiles = ["001_happy_038.mp4", "021_happy_030.mp4", "002_angry_001.mp4", "003_angry_037.mp4", "005_fear_003.mp4", "018_fear_51.mp4", "006_disgust_031.mp4", "021_disgust_023.mp4", "018_sad_036.mp4", "045_sad_011.mp4", "044_surprise_010.mp4", "046_surprise_038.mp4"];
+  const faceReliVidFiles = ["0001_light1_0001.mp4", "0001_light2_0001.mp4", "0001_light5_0005.mp4", "0001_light6_0004.mp4", "0002_light2_0020.mp4", "0003_light1_0011.mp4", "0003_light8_0013.mp4", "0011_light2_0008.mp4", "0014_light3_0012.mp4", "0070_light2_0010.mp4", "outdoor_0006_light6_0009.mp4", "outdoor_0006_light8_0004.mp4", "outdoor_0008_light2_0011.mp4", "outdoor_0009_light3_0006.mp4", "outdoor_0041_light3_0017.mp4", "outdoor_0042_light1_0010.mp4", "outdoor_0051_light3_0008.mp4", "outdoor_0052_light4_0012.mp4"];
+  const faceLolVidFiles = ["2024_09_05_14_51_IMG_4368.mp4", "VID_20240909_103040.mp4", "VID_20240912_134857.mp4", "VID20240909085206.mp4", "VID20240920152148.mp4", "VID20240922151142.mp4"];
+  const faceDrasMvVidFiles = ["batch_04_004_VID20240823094316.mp4", "batch_04_002_VID20240822115129.mp4", "batch_03_034_VID20240821130848.mp4", "batch_03_033_VID20240821102408.mp4", "batch_02_030_VID20240820142103.mp4", "batch_01_026_VID_20240812084921.mp4"];
+  const mvFaceVidFiles = ["001-张芳芳-女_cam3_VID_20240920_113946.mp4", "004-李子豪-男_cam4_VID_20240926_222900.mp4", "004-李子豪-男_cam4_VID_20240926_223654.mp4", "005-王志胜-男_cam2_VID_20240927_194023.mp4", "006-王晓雅-女_cam7_VID_20240924_211248.mp4", "007-李晓光-男_cam2_VID_20240928_191226.mp4", "007-李晓光-男_cam5_VID_20240928_191828.mp4", "008-王泽-男_cam4_VID_20240929_162344.mp4", "008-王泽-男_cam6_VID_20240929_160811.mp4", "009-张嫣然-女_cam4_VID_20240924_174540.mp4", "010-李鹏飞-男_cam5_VID_20240930_224028.mp4", "010-李鹏飞-男_cam8_VID_20240930_225926.mp4"];
+  
+  // --- Create Grids for Each Section ---
+  createVideoGrid('facevid-gallery', faceVidFiles, ""); // Directory info is now in the array itself
+  createVideoGrid('faceemovid-gallery', faceEmoVidFiles, "dh-faceemovid/");
+  createVideoGrid('facerelivid-gallery', faceReliVidFiles, "subsets/DH-FaceReliVid/");
+  createVideoGrid('facelolvid-gallery', faceLolVidFiles, "subsets/DH-FaceLolVid/");
+  createVideoGrid('facedrasmvvid-gallery', faceDrasMvVidFiles, "subsets/DH-FaceDrasMvVid/");
+  createVideoGrid('mvfacevid-gallery', mvFaceVidFiles, "subsets/DH-MVFaceVid/");
+  createVideoGrid('singlevid-gallery', singleVidFiles, "subsets/DH-SingleVid/");
+});
+</script>
 </body>
 </html>

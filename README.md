@@ -201,7 +201,8 @@ The emotions include **happy, angry, fearful, disgusted, sad, and surprised**.
     <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-SingleVid/yoga-pose1.gif" style="width: 100%;"></td>
   </tr>
 </table>
-## 📊 Datasets Comparison
+
+### 📊 Datasets Comparison
 
 Compared with other datasets, DH-OmniFace has a larger data volume, superior visual quality, and broader attribute coverage.
 
