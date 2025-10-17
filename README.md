@@ -57,6 +57,7 @@ Our open-source roadmap is as follows. We will update the status here as we make
 ---
 
 ## 🎬 Video Samples
+### The videos have been cropped and compressed to ensure faster page loading, but this does not reflect the original quality.
 ### DH-FaceVid-1K
 <table class="center" style="border-collapse: collapse; margin: auto;">
   <!-- Row 1: Numeric IDs -->
@@ -103,6 +104,103 @@ The emotions include **happy, angry, fearful, disgusted, sad, and surprised**.
   </tr>
 </table>
 
+
+### DH-FaceReliVid
+<table class="center" style="border-collapse: collapse; margin: auto;">
+  <!-- Row 1 -->
+  <tr>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/0001_light1_0001.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/0001_light2_0001.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/0001_light5_0005.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/0001_light6_0004.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/0002_light2_0020.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/0003_light1_0011.gif" style="width: 100%;"></td>
+  </tr>
+
+  <!-- Row 2 -->
+  <tr>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/0003_light8_0013.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/0011_light2_0008.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/0014_light3_0012.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/0070_light2_0010.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/outdoor_0006_light6_0009.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/outdoor_0006_light8_0004.gif" style="width: 100%;"></td>
+  </tr>
+
+  <!-- Row 3 -->
+  <tr>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/outdoor_0008_light2_0011.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/outdoor_0009_light3_0006.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/outdoor_0041_light3_0017.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/outdoor_0042_light1_0010.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/outdoor_0051_light3_0008.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/outdoor_0052_light4_0012.gif" style="width: 100%;"></td>
+  </tr>
+</table>
+
+### DH-FaceLolVid
+<table class="center" style="border-collapse: collapse; margin: auto;">
+  <!-- New Row with your GIFs -->
+  <tr>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceLolVid/2024_09_05_14_51_IMG_4368.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceLolVid/VID_20240909_103040.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceLolVid/VID_20240912_134857.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceLolVid/VID20240909085206.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceLolVid/VID20240920152148.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceLolVid/VID20240922151142.gif" style="width: 100%;"></td>
+  </tr>
+</table>
+
+### DH-FaceDrasMvVid
+
+<table class="center" style="border-collapse: collapse; margin: auto;">
+  <!-- New Row with your GIFs -->
+  <tr>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceDrasMvVid/batch_04_004_VID20240823094316.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceDrasMvVid/batch_04_002_VID20240822115129.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceDrasMvVid/batch_03_034_VID20240821130848.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceDrasMvVid/batch_03_033_VID20240821102408.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceDrasMvVid/batch_02_030_VID20240820142103.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceDrasMvVid/batch_01_026_VID_20240812084921.gif" style="width: 100%;"></td>
+  </tr>
+</table>
+
+### DH-MVHeadVid
+<table class="center" style="border-collapse: collapse; margin: auto;">
+  <!-- Row 1 -->
+  <tr>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-MVFaceVid/001-张芳芳-女_cam3_VID_20240920_113946.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-MVFaceVid/004-李子豪-男_cam4_VID_20240926_222900.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-MVFaceVid/004-李子豪-男_cam4_VID_20240926_223654.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-MVFaceVid/005-王志胜-男_cam2_VID_20240927_194023.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-MVFaceVid/006-王晓雅-女_cam7_VID_20240924_211248.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-MVFaceVid/007-李晓光-男_cam2_VID_20240928_191226.gif" style="width: 100%;"></td>
+  </tr>
+
+  <!-- Row 2 -->
+  <tr>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-MVFaceVid/007-李晓光-男_cam5_VID_20240928_191828.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-MVFaceVid/008-王泽-男_cam4_VID_20240929_162344.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-MVFaceVid/008-王泽-男_cam6_VID_20240929_160811.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-MVFaceVid/009-张嫣然-女_cam4_VID_20240924_174540.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-MVFaceVid/010-李鹏飞-男_cam5_VID_20240930_224028.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-MVFaceVid/010-李鹏飞-男_cam8_VID_20240930_225926.gif" style="width: 100%;"></td>
+  </tr>
+</table>
+
+### DH-SingleVid
+
+<table class="center" style="border-collapse: collapse; margin: auto;">
+  <!-- New Row with your GIFs -->
+  <tr>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-SingleVid/dance-pose1.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-SingleVid/dance-pose2.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-SingleVid/gymnastic-pose2.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-SingleVid/scene-pose1.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-SingleVid/yoga-pose1-1.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-SingleVid/yoga-pose1.gif" style="width: 100%;"></td>
+  </tr>
+</table>
 ## 📊 Datasets Comparison
 
 Compared with other datasets, DH-OmniFace has a larger data volume, superior visual quality, and broader attribute coverage.

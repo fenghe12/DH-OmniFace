@@ -220,20 +220,20 @@
       
       <div class="author-line">
         <span class="author-block"><a href="https://github.com/fenghe12">He Feng</a><sup>1</sup>,</span>
-        <span class="author-block"><a href="https://scholar.google.com/citations?hl=zh-CN&user=L8tcNioAAAAJ">Donglin Di</a><sup>2</sup>,</span>
+        <span class="author-block"><a href="https://scholar.google.com/citations?hl=zh-CN&user=L8tcNioAAAAJ">Donglin Di</a><sup>1</sup>,</span>
         <span class="author-block"><a href="https://scholar.google.hk/citations?hl=zh-CN&user=67fxVzoAAAAJ">Tonghua Su</a><sup>1</sup>,</span>
         <span class="author-block"><a href="#">Yin Chen</a><sup>1</sup>,</span>
-        <span class="author-block"><a href="#">Xiu Su</a><sup>1</sup>,</span>
-        <span class="author-block"><a href="#">Hongyan Xu</a><sup>1</sup>,</span>
+        <span class="author-block"><a href="#">Xiu Su</a><sup>2</sup>,</span>
+        <span class="author-block"><a href="#">Hongyan Xu</a><sup>2</sup>,</span>
         <span class="author-block"><a href="#">Zhongjie Wang</a><sup>1</sup>,</span>
         <span class="author-block"><a href="#">Xiangqian Wu</a><sup>1</sup>,</span>
-        <span class="author-block"><a href="#">Song Yang</a><sup>1</sup>,</span>
+        <span class="author-block"><a href="#">Song Yang</a><sup>3</sup>,</span>
         <span class="author-block"><a href="https://hellodfan.github.io/">Lei Fan</a><sup>3</sup></span>
       </div>
       
       <div class="institution-line mt-2">
         <span class="inst-block"><sup>1</sup>Harbin Institute of Technology</span>
-        <span class="inst-block"><sup>2</sup>Li Auto</span>
+        <span class="inst-block"><sup>2</sup>Central South University</span>
         <span class="inst-block"><sup>3</sup>University of New South Wales</span>
       </div>
       
@@ -246,57 +246,54 @@
 
     <!-- 1. MERGED Abstract & Overview Section -->
     <div class="my-5">
-      <h2 class="section-title">📜 Abstract & Overview</h2>
-      <img src="static/images/1.png" class="img-fluid rounded figure-img" alt="Overview of the DH-FaceVid-1K dataset">
+      <h2 class="section-title">📜 Overview & Abstract</h2>
+      <img src="static/images/figure1-0918.png" class="img-fluid rounded figure-img" alt="Overview of the DH-OmniFace dataset">
       <p class="section-text mt-3">
-        The figure above illustrates the scale and diversity of the DH-FaceVid-1K dataset. It features over 270,000 video clips from more than 20,000 unique individuals, totaling over 1,200 hours. A key feature is its rich multi-ethnic composition, with a significant focus on Asian faces to address existing data gaps.
+         Overview of the <strong>DH-OmniFace</strong>. The suite includes seven components: <strong>DH-FaceVid-1K</strong> for talking face generation, <strong>DH-FaceEmoVid</strong> for expressive emotions, <strong>DH-FaceReliVid</strong> for diverse lighting conditions, <strong>DH-FaceLolVid</strong> for authentic laughter, <strong>DH-FaceDrasMvVid</strong> for large-angle head movements, <strong>DH-MVHeadVid</strong> for multi-view head poses, and <strong>DH-SingleVid</strong> for complex body movements.  
+        The lower panels summarize our experiments: (i) fine-tuning generative backbones, (ii) introducing the FACET benchmark, and (iii) exploring joint training of face and full-body data in full-body video generation.
       </p>
       <p class="abstract-text section-text mt-4">
-        Human-centric generative models are becoming increasingly popular, giving rise to various innovative tools and applications, such as talking face videos conditioned on text or audio prompts. The core of these capabilities lies in powerful pretrained foundation models, trained on large-scale, high-quality datasets. However, many advanced methods rely on in-house data subject to various constraints, and other current studies fail to generate high-resolution face videos, which is mainly attributed to the significant lack of large-scale, high-quality face video datasets. In this paper, we introduce a human face video dataset, <strong>DH-FaceVid-1K</strong>. Our collection spans <strong>1200 hours</strong> in total, encompassing <strong>270,043</strong> video samples from over <strong>20,000</strong> individuals. Each sample includes corresponding speech audio, facial keypoints, and text annotations. Compared to other publicly available datasets, ours distinguishes itself through its multi-ethnic coverage and high-quality comprehensive individual attributes. We establish multiple face video generation models supporting tasks such as Text-to-Video and Image-to-Video generation. In addition, we develop comprehensive benchmarks to validate the scaling law when using different proportions of our dataset. Our primary aim is to contribute a face video dataset, particularly addressing the underrepresentation of Asian faces in existing curated datasets and thereby enriching the global spectrum of face-centric data and mitigating demographic biases.
+        Human-centric video generation has made significant progress in synthesizing realistic, temporally coherent videos. However, advancing controllable generation of fine-grained facial attributes, <em>e.g.</em>, emotion, head pose, and lighting conditions, is hindered by the lack of large-scale, high-quality datasets with rich annotations.  
+        To address this gap, we present <strong>DH-OmniFace</strong>, a comprehensive suite of human-centric video datasets covering diverse facial attributes and full-body actions.  
+        The suite comprises <strong>340,407</strong> video clips totaling <strong>1,879 hours</strong> from over <strong>20,000</strong> individuals, including <strong>128,392</strong> clips at <code>1080×1080</code> and <strong>23,887</strong> clips at 1080p.  
+        To ensure quality, we establish a multi-stage pipeline to filter out noisy samples, such as hands appearing at frame edges and truncated logos, which could otherwise degrade generation quality.  
+        Each sample is paired with synchronized speech audio and text annotations to support multimodal learning.  
+        The dataset offers extensive attribute coverage, including six core emotions (<em>e.g.</em>, happy, angry, disgusted), 16 lighting conditions (artificial and natural light at different times of day), 360° head poses (captured by a 12-camera array covering frontal, profile, and back views), and dynamic actions (including laughter and complex body movements such as calisthenics and yoga).  
       </p>
       <div class="tldr">
-        <strong>TL;DR:</strong> We introduce DH-FaceVid-1K, a large-scale, high-quality multi-ethnic face video dataset with comprehensive attributes, enabling diverse generation tasks and benchmarks while mitigating demographic biases.
+        <strong>TL;DR:</strong> We introduce <strong>DH-OmniFace</strong>, a large-scale suite of human-centric video datasets with diverse facial attributes and full-body actions, enabling controllable and high-quality video generation across multiple modalities.
       </div>
     </div>
     
-    <!-- 2. Download Section -->
     <div class="my-5">
       <div class="text-center">
-        <h2 class="title">📥 Download DH-FaceVid-1K</h2>
-        <a href="https://forms.gle/vEyouWdS9CgcRFMt9" class="btn-download-specific">Click me for application</a>
-        <div class="description">220k samples / 1.2 khrs duration / ~4.01 TB</div>
+        <h2 class="title">📥 Download DH-OmniFace</h2>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeSMkATTXO22YvLFj-qC_hDM8LCd912Y45cdyINU91HbgP9KQ/viewform?usp=header" class="btn-download-specific">Click me for application</a>
+        <div class="description mt-2"><strong>Scale:</strong> 340k samples / 1.8k hrs duration / ~5 TB</div>
       </div>
+    
       <div class="download-alert mt-4">
         <h3>🔥 Download Instructions & Policy</h3>
-        <p>These video samples are sourced from crowd-sourcing platforms. To ensure proper use and prevent data misuse, we manually review all download requests. By downloading and using this dataset, you are required to comply with <strong><a href="https://github.com/luna-ai-lab/DH-FaceVid-1K/blob/main/LICENSE">the license agreement</a></strong>.</p>
-        <p>To request download access, please carefully fill out the form <a href="https://forms.gle/vEyouWdS9CgcRFMt9">here</a>. <strong>You must use an official institutional email address and clearly state your research purpose.</strong> Requests from personal email providers (e.g., Gmail, Outlook) will be rejected.</p>
-        <p>Once your request is approved, we will send download instructions to your provided email address, typically within <strong>2-3 days</strong>. If you encounter any issues or do not receive the email within a reasonable time, please contact us at <a href="mailto:fenghe021209@gmail.com">fenghe021209@gmail.com</a>.</p>
+        <p>To download the <strong>DH-OmniFace</strong> dataset suite, please submit the <a href="https://docs.google.com/forms/d/e/1FAIpQLSeSMkATTXO22YvLFj-qC_hDM8LCd912Y45cdyINU91HbgP9KQ/viewform?usp=header"><strong>request form</strong></a> using an official institutional email and clearly stating your research purpose. Requests from personal emails will be rejected.</p>
+        <p>After approval (usually within <strong>2–3 working days</strong>), download instructions will be sent via email. If you encounter any issues, contact <a href="mailto:fenghe021209@gmail.com"><strong>fenghe021209@gmail.com</strong></a>.</p>
+        <p>These samples are sourced from crowd-sourcing platforms. By downloading, you agree to comply with <a href="https://github.com/fenghe12/DH-OmniFace/blob/main/LICENSE"><strong>the license agreement</strong></a>.</p>
       </div>
     </div>
     
     <!-- 3. Open-source Plan -->
-    <div class="my-5">
-      <h2 class="section-title">🚀 Open-source Plan</h2>
-      <p class="text-center">Our open-source roadmap is as follows. We will update the status here as we make progress.</p>
-      <div class="timeline mt-5">
-        <div class="timeline-item status-current">
-          <div class="timeline-dot">✅</div>
-          <div class="timeline-content"><h3>Phase 1 <span class="timeline-status">Finished</span></h3><p>Open filtered public datasets video ID list.</p></div>
-        </div>
-        <div class="timeline-item status-current">
-          <div class="timeline-dot">✅</div>
-          <div class="timeline-content"><h3>Phase 2 <span class="timeline-status">Finished</span></h3><p>Open the first 10% of total data.</p></div>
-        </div>
-        <div class="timeline-item status-current">
-          <div class="timeline-dot">✅</div>
-          <div class="timeline-content"><h3>Phase 3 <span class="timeline-status">Planned</span></h3><p>Open the next 40% of total data.</p></div>
-        </div>
-        <div class="timeline-item status-future">
-          <div class="timeline-dot">🔄</div>
-          <div class="timeline-content"><h3>Phase 4 <span class="timeline-status">In Progress</span></h3><p>Open the remaining 50% of total data.</p></div>
-        </div>
+<div class="my-5">
+  <h2 class="section-title">🚀 Open-source Plan</h2>
+  <p class="text-center">Our open-source roadmap is ongoing. We will update the status here as we make progress.</p>
+  <div class="timeline mt-5">
+    <div class="timeline-item status-current">
+      <div class="timeline-dot">🔄</div>
+      <div class="timeline-content">
+        <h3>Phase 1 <span class="timeline-status">Ongoing</span></h3>
+        <p>Open the DH-OmniFace dataset suite in a controlled manner for public access.</p>
       </div>
     </div>
+  </div>
+</div
 
     <!-- 4. Sampled Videos -->
     <div class="my-5">
@@ -316,47 +313,40 @@
 
     <!-- 5. Statistics and Other Figures -->
     <div class="my-5 text-center">
-      <h2 class="section-title">📊 Face Video Datasets Comparison</h2>
+      <h2 class="section-title">📊 Datasets Comparison</h2>
       <p class="section-text">
-        This chart compares DH-FaceVid-1K with other prominent public datasets in terms of scale, quality, and annotation richness. Our dataset demonstrates competitive advantages in data volume and attribute diversity.
+        Compared with other datasets, <strong>DH-OmniFace</strong> has a larger data volume, superior visual quality, and broader attribute coverage.
       </p>
-      <img src="static/images/comparison.jpg" class="img-fluid rounded figure-img" alt="Comparison with other datasets">
+      <img src="static/images/img_v3_02r4_88423c55-6652-4cf9-89b0-a19261c1336g.jpg" class="img-fluid rounded figure-img" alt="Comparison with other datasets">
     </div>
     
     <div class="my-5 text-center">
       <h2 class="section-title">📈 Statistics</h2>
       <p class="section-text">
-        Here we visualize the distributions of key attributes within the dataset, including general appearance, hair color, emotion, action, ethnicity, and age, showcasing its comprehensive coverage.
+        Details of each subset.
       </p>
-      <img src="static/images/figure4.jpg" class="img-fluid rounded figure-img" alt="Dataset statistics">
+      <img src="static/images/img_v3_02r4_88423c55-6652-4cf9-89b0-a19261c1336g.jpg" class="img-fluid rounded figure-img" alt="Dataset statistics">
     </div>
     
     <div class="my-5 text-center">
       <h2 class="section-title">⚙️ Collection Pipeline</h2>
-       <p class="section-text">
-        The data collection process involved several key stages: sourcing raw videos, detecting and cropping facial regions, filtering out low-quality or noisy clips, and generating detailed attribute descriptions.
+      <img src="static/images/figure4_cropped.png" class="img-fluid rounded figure-img" alt="Data collection pipeline">
+      <p class="section-text mt-3">
+        Overview of the data curation pipeline, comprising four main stages: raw data acquisition, video preprocessing, noisy data filtering, and annotation generation using Qwen2.5-VL and Llama 3, followed by two-stage manual verification.
       </p>
-      <img src="static/images/collect_pipe.png" class="img-fluid rounded figure-img" alt="Data collection pipeline">
     </div>
     
-    <div class="my-5 text-center">
-      <h2 class="section-title">📋 Comprehensive Attribute List</h2>
-      <p class="section-text">
-        A detailed breakdown of the extensive attributes annotated in DH-FaceVid-1K, spanning ethnicities, appearance details, emotions, actions, and various lighting conditions.
-      </p>
-      <img src="static/images/detail.png" class="img-fluid rounded figure-img" alt="Detailed attribute list">
-    </div>
-
     <!-- BibTeX -->
     <div class="my-5">
       <h2 class="section-title">📚 BibTeX</h2>
-      <div class="bibtex-box">
+      Coming Soon......
+      <!-- <div class="bibtex-box">
         <pre><code>@inproceedings{di2025facevid,
     title = {DH-FaceVid-1K: A Large-Scale High-Quality Dataset for Face Video Generation},
     author = {Di, Donglin and Feng, He and Sun, Wenzhang and Ma, Yongjia and Li, Hao and Chen, Wei and Fan, Lei and Su, Tonghua and Yang, Xun},
     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
     year = {2025}
-}</code></pre>
+}</code></pre> -->
       </div>
     </div>
     
