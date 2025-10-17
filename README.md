@@ -102,6 +102,7 @@ Details of each subset.
 
 ![Collection Pipeline](static/images/figure4_cropped.png)
 
+
 Overview of the data curation pipeline, comprising four main stages: raw data acquisition, video preprocessing, noisy data filtering, and annotation
 generation using Qwen2.5-VL and Llama 3, followed by two-stage manual verification.
 
