@@ -80,6 +80,29 @@ Our open-source roadmap is as follows. We will update the status here as we make
   </tr>
 </table>
 
+### DH-FaceEmoVid  
+The emotions include **happy, angry, fearful, disgusted, sad, and surprised**.
+<table class="center" style="border-collapse: collapse; margin: auto;">
+  <!-- Row 1 -->
+  <tr>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/001_happy_038.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/021_happy_030.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/002_angry_001.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/003_angry_037.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/005_fear_003.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/018_fear_51.gif" style="width: 100%;"></td>
+  </tr>
+
+  <!-- Row 2 -->
+  <tr>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/006_disgust_031.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/021_disgust_023.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/018_sad_036.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/045_sad_011.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/044_surprise_010.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/046_surprise_038.gif" style="width: 100%;"></td>
+  </tr>
+</table>
 
 ## 📊 Datasets Comparison
 
