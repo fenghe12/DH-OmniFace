@@ -249,7 +249,7 @@
       <h2 class="section-title">📜 Overview & Abstract</h2>
       <img src="static/images/figure1-0918.png" class="img-fluid rounded figure-img" alt="Overview of the DH-OmniFace dataset">
       <p class="section-text mt-3">
-         Overview of the <strong>DH-OmniFace</strong>. The suite includes seven components: <strong>DH-FaceVid-1K</strong> for talking face generation, <strong>DH-FaceEmoVid</strong> for expressive emotions, <strong>DH-FaceReliVid</strong> for diverse lighting conditions, <strong>DH-FaceLolVid</strong> for authentic laughter, <strong>DH-FaceDrasMvVid</strong> for large-angle head movements, <strong>DH-MVHeadVid</strong> for multi-view head poses, and <strong>DH-SingleVid</strong> for complex body movements.  
+         Overview of the <strong>DH-OmniFace</strong>. The suite includes seven components: <strong>DH-FaceVid-1K</strong> for talking face generation, <strong>DH-EmoFaceVid</strong> for expressive emotions, <strong>DH-ReliFaceVid</strong> for diverse lighting conditions, <strong>DH-LolFaceVid</strong> for authentic laughter, <strong>DH-DrasFaceVid</strong> for large-angle head movements, <strong>DH-MVHeadVid</strong> for multi-view head poses, and <strong>DH-SingleVid</strong> for complex body movements.  
         The lower panels summarize our experiments: (i) fine-tuning generative backbones, (ii) introducing the FACET benchmark, and (iii) exploring joint training of face and full-body data in full-body video generation.
       </p>
       <p class="abstract-text section-text mt-4">
@@ -302,21 +302,21 @@
 <h3 class="section-subtitle">DH-FaceVid-1K</h3>
 <div id="facevid-gallery" class="video-gallery mt-3"></div>
 
-<!-- 2. DH-FaceEmoVid -->
-<h3 class="section-subtitle">DH-FaceEmoVid</h3>
+<!-- 2. DH-EmoFaceVid -->
+<h3 class="section-subtitle">DH-EmoFaceVid</h3>
 <p class="text-center">The emotions include <b>happy, angry, fearful, disgusted, sad, and surprised</b>.</p>
 <div id="faceemovid-gallery" class="video-gallery mt-3"></div>
 
-<!-- 3. DH-FaceReliVid -->
-<h3 class="section-subtitle">DH-FaceReliVid</h3>
+<!-- 3. DH-ReliFaceVid -->
+<h3 class="section-subtitle">DH-ReliFaceVid</h3>
 <div id="facerelivid-gallery" class="video-gallery mt-3"></div>
 
-<!-- 4. DH-FaceLolVid -->
-<h3 class="section-subtitle">DH-FaceLolVid</h3>
+<!-- 4. DH-LolFaceVid -->
+<h3 class="section-subtitle">DH-LolFaceVid</h3>
 <div id="facelolvid-gallery" class="video-gallery mt-3"></div>
 
-<!-- 5. DH-FaceDrasMvVid -->
-<h3 class="section-subtitle">DH-FaceDrasMvVid</h3>
+<!-- 5. DH-DrasFaceVid -->
+<h3 class="section-subtitle">DH-DrasFaceVid</h3>
 <div id="facedrasmvvid-gallery" class="video-gallery mt-3"></div>
 
 <!-- 6. DH-MVHeadVid -->
@@ -446,10 +446,10 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // --- Create Grids for Each Section ---
   createVideoGrid('facevid-gallery', faceVidFiles, ""); // Directory info is now in the array itself
-  createVideoGrid('faceemovid-gallery', faceEmoVidFiles, "dh-faceemovid/");
-  createVideoGrid('facerelivid-gallery', faceReliVidFiles, "subsets/DH-FaceReliVid/");
-  createVideoGrid('facelolvid-gallery', faceLolVidFiles, "subsets/DH-FaceLolVid/");
-  createVideoGrid('facedrasmvvid-gallery', faceDrasMvVidFiles, "subsets/DH-FaceDrasMvVid/");
+  createVideoGrid('faceemovid-gallery', faceEmoVidFiles, "DH-EmoFaceVid/");
+  createVideoGrid('facerelivid-gallery', faceReliVidFiles, "subsets/DH-ReliFaceVid/");
+  createVideoGrid('facelolvid-gallery', faceLolVidFiles, "subsets/DH-LolFaceVid/");
+  createVideoGrid('facedrasmvvid-gallery', faceDrasMvVidFiles, "subsets/DH-DrasFaceVid/");
   createVideoGrid('mvfacevid-gallery', mvFaceVidFiles, "subsets/DH-MVFaceVid/");
   createVideoGrid('singlevid-gallery', singleVidFiles, "subsets/DH-SingleVid/");
 });

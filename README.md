@@ -24,8 +24,8 @@ Official repository of **DH-OmniFace: A Large-Scale and Multi-Attribute Dataset 
 ![Dataset Overview](static/images/figure1-0918.png)
 
 Overview of the proposed DH-OmniFace. The suite includes seven components: DH-FaceVid-1K for talking face generation, DH-SingleVid for
-complex body movements, DH-FaceReliVid for diverse lighting conditions, DH-MVHeadVid for multi-view head poses, DH-FaceEmoVid for expressive
-emotions, DH-FaceLolVid for authentic laughter, and DH-FaceDrasMvVid for large-angle head movements. The lower panels summarize our experiments:
+complex body movements, DH-ReliFaceVid for diverse lighting conditions, DH-MVHeadVid for multi-view head poses, DH-EmoFaceVid for expressive
+emotions, DH-LolFaceVid for authentic laughter, and DH-DrasFaceVid for large-angle head movements. The lower panels summarize our experiments:
 i) fine-tuning generative backbones, ii) proposing the FACET benchmark, and iii) exploring joint training of face and full-body data to enhance quality and diversity in full-body video generation.
 
 ---
@@ -81,87 +81,87 @@ Our open-source roadmap is as follows. We will update the status here as we make
   </tr>
 </table>
 
-### DH-FaceEmoVid  
+### DH-EmoFaceVid  
 The emotions include **happy, angry, fearful, disgusted, sad, and surprised**.
 <table class="center" style="border-collapse: collapse; margin: auto;">
   <!-- Row 1 -->
   <tr>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/001_happy_038.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/021_happy_030.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/002_angry_001.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/003_angry_037.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/005_fear_003.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/018_fear_51.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="DH-EmoFaceVid/001_happy_038.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="DH-EmoFaceVid/021_happy_030.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="DH-EmoFaceVid/002_angry_001.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="DH-EmoFaceVid/003_angry_037.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="DH-EmoFaceVid/005_fear_003.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="DH-EmoFaceVid/018_fear_51.gif" style="width: 100%;"></td>
   </tr>
   <!-- Row 2 -->
   <tr>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/006_disgust_031.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/021_disgust_023.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/018_sad_036.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/045_sad_011.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/044_surprise_010.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="dh-faceemovid/046_surprise_038.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="DH-EmoFaceVid/006_disgust_031.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="DH-EmoFaceVid/021_disgust_023.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="DH-EmoFaceVid/018_sad_036.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="DH-EmoFaceVid/045_sad_011.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="DH-EmoFaceVid/044_surprise_010.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="DH-EmoFaceVid/046_surprise_038.gif" style="width: 100%;"></td>
   </tr>
 </table>
 
 
-### DH-FaceReliVid
+### DH-ReliFaceVid
 <table class="center" style="border-collapse: collapse; margin: auto;">
   <!-- Row 1 -->
   <tr>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/0001_light1_0001.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/0001_light2_0001.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/0001_light5_0005.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/0001_light6_0004.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/0002_light2_0020.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/0003_light1_0011.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-ReliFaceVid/0001_light1_0001.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-ReliFaceVid/0001_light2_0001.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-ReliFaceVid/0001_light5_0005.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-ReliFaceVid/0001_light6_0004.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-ReliFaceVid/0002_light2_0020.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-ReliFaceVid/0003_light1_0011.gif" style="width: 100%;"></td>
   </tr>
 
   <!-- Row 2 -->
   <tr>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/0003_light8_0013.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/0011_light2_0008.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/0014_light3_0012.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/0070_light2_0010.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/outdoor_0006_light6_0009.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/outdoor_0006_light8_0004.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-ReliFaceVid/0003_light8_0013.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-ReliFaceVid/0011_light2_0008.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-ReliFaceVid/0014_light3_0012.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-ReliFaceVid/0070_light2_0010.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-ReliFaceVid/outdoor_0006_light6_0009.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-ReliFaceVid/outdoor_0006_light8_0004.gif" style="width: 100%;"></td>
   </tr>
 
   <!-- Row 3 -->
   <tr>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/outdoor_0008_light2_0011.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/outdoor_0009_light3_0006.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/outdoor_0041_light3_0017.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/outdoor_0042_light1_0010.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/outdoor_0051_light3_0008.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceReliVid/outdoor_0052_light4_0012.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-ReliFaceVid/outdoor_0008_light2_0011.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-ReliFaceVid/outdoor_0009_light3_0006.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-ReliFaceVid/outdoor_0041_light3_0017.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-ReliFaceVid/outdoor_0042_light1_0010.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-ReliFaceVid/outdoor_0051_light3_0008.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-ReliFaceVid/outdoor_0052_light4_0012.gif" style="width: 100%;"></td>
   </tr>
 </table>
 
-### DH-FaceLolVid
+### DH-LolFaceVid
 <table class="center" style="border-collapse: collapse; margin: auto;">
   <!-- New Row with your GIFs -->
   <tr>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceLolVid/2024_09_05_14_51_IMG_4368.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceLolVid/VID_20240909_103040.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceLolVid/VID_20240912_134857.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceLolVid/VID20240909085206.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceLolVid/VID20240920152148.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceLolVid/VID20240922151142.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-LolFaceVid/2024_09_05_14_51_IMG_4368.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-LolFaceVid/VID_20240909_103040.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-LolFaceVid/VID_20240912_134857.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-LolFaceVid/VID20240909085206.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-LolFaceVid/VID20240920152148.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-LolFaceVid/VID20240922151142.gif" style="width: 100%;"></td>
   </tr>
 </table>
 
-### DH-FaceDrasMvVid
+### DH-DrasFaceVid
 
 <table class="center" style="border-collapse: collapse; margin: auto;">
   <!-- New Row with your GIFs -->
   <tr>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceDrasMvVid/batch_04_004_VID20240823094316.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceDrasMvVid/batch_04_002_VID20240822115129.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceDrasMvVid/batch_03_034_VID20240821130848.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceDrasMvVid/batch_03_033_VID20240821102408.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceDrasMvVid/batch_02_030_VID20240820142103.gif" style="width: 100%;"></td>
-    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-FaceDrasMvVid/batch_01_026_VID_20240812084921.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-DrasFaceVid/batch_04_004_VID20240823094316.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-DrasFaceVid/batch_04_002_VID20240822115129.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-DrasFaceVid/batch_03_034_VID20240821130848.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-DrasFaceVid/batch_03_033_VID20240821102408.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-DrasFaceVid/batch_02_030_VID20240820142103.gif" style="width: 100%;"></td>
+    <td width="16.6%" style="border: none; padding: 5px;"><img src="subsets/DH-DrasFaceVid/batch_01_026_VID_20240812084921.gif" style="width: 100%;"></td>
   </tr>
 </table>
 
