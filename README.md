@@ -206,7 +206,7 @@ The emotions include **happy, angry, fearful, disgusted, sad, and surprised**.
 
 Compared with other datasets, DH-OmniFace has a larger data volume, superior visual quality, and broader attribute coverage.
 
-![Comparison](static/images/img_v3_02r4_88423c55-6652-4cf9-89b0-a19261c1336g.jpg) 
+![Comparison](static/images/img_v3_02r4_cebe0894-d5db-4059-80e3-0f1bb1ba3e9g.jpg) 
 
 
 ---
